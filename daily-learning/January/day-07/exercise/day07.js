@@ -1,14 +1,14 @@
 // First name
-let firstName = "John";
+let firstName = "Orlu";
 
 //  Last name 
-let lastName = "Doe";
+let lastName = "Godspower";
 
 // Age
 let age = 25;
 
 // Favorite Color
-let favoriteColor = "Blue";
+let favoriteColor = "White";
 
 // Today's Date
 let todaysDate = "January 7, 2025";
@@ -20,13 +20,13 @@ let birthYear = 2000;
 let likesChocolate = true;
 
 // School Name
-let schoolName = "Greenfield Academy";
+let schoolName = "Sure Foundation Comprehensive College";
 
 // Favorite Movie
-let favoriteMovie = "Inception";
+let favoriteMovie = "Merry Men III";
 
 // Country of origin
-let countryOfOrigin = "United States";
+let countryOfOrigin = "Nigeria";
 
 
 
@@ -81,32 +81,32 @@ let totalSalary = hoursWorked * hourlyPay;
 // String Concatenation and Template Literals
 let fullName = firstName + " " + lastName;
 
-let introduction = `Hello, my name is ${fullName}, and I am ${age} years old.`;
+let introduction = "Hello, my name is ${fullName}, and I am ${age} years old.";
 
 let sentenceUsingConcatenation = "My name is " + firstName + " " + lastName + ".";
 
-let city = "New York";
-let state = "New York";
-let location = `${city}, ${state}`;
+let city = "Port Harcourt";
+let state = "Rivers";
+let location = "${city}, ${state}";
 
 let hobby = "reading books";
-let hobbyDescription = `I enjoy ${hobby} in my free time.`;
+let hobbyDescription = "I enjoy ${hobby} in my free time.";
 
-let combinedSentence = `${fullName} is ${age} years old and enjoys ${hobby}.`;
+let combinedSentence = "${fullName} is ${age} years old and enjoys ${hobby}.";
 
-let message = "Have a great day!";
-let greeting = "Hello! " + message;
+let message = "Do have a great day!";
+let greeting = "Hello there! " + message;
 
-let productName = "Laptop";
+let productName = "Baby Oil";
 let productPrice = 500;
-let productInfo = `Item: ${productName}, Price: $${productPrice}`;
+let productInfo = "Item: ${productName}, Price: $${productPrice}";
 
 let quote = "The journey of a thousand miles begins with a single step.";
 let author = "Lao Tzu";
-let fullQuote = `"${quote}" - ${author}`;
+let fullQuote = "${quote} - ${author}";
 
-let friendsName = "Jane";
-let welcomeMessage = `Hi ${friendsName}, welcome to the community!`;
+let friendsName = "Josephine";
+let welcomeMessage = "Hi ${friendsName}, welcome on board!";
 
 console.log({
   fullName,
